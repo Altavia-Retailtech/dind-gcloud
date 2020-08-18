@@ -10,7 +10,7 @@ RUN apk --update --no-cache add \
         ca-certificates \
         curl \
         openssl \
-        python && \
+        python3 && \
     wget -O - -q "${GCLOUD_SDK_URL}" | tar zxf - -C /opt && \
     ln -s /lib /lib64 && \
     gcloud config set core/disable_usage_reporting true && \
