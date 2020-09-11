@@ -11,6 +11,7 @@ RUN apk --update --no-cache add \
         curl \
         openssl \
         python3 && \
+    update-ca-certificates && \
     wget -O - -q "${GCLOUD_SDK_URL}" | tar zxf - -C /opt && \
     ln -s /lib /lib64 && \
     /opt/google-cloud-sdk/install.sh --usage-reporting false --path-update true --additional-components docker-credential-gcr --quiet && \

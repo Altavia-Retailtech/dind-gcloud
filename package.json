@@ -1,6 +1,6 @@
 {
   "name": "@Altavia-Retailtech/dind-gcloud",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Docker image with Docker-in-Docker and Google Cloud SDK for CI builder",
   "author": "Altavia Retailtech <webmaster@altavia-retailtech.io>",
   "license": "MIT",

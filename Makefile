@@ -1,4 +1,4 @@
-DOCKER_REPOSITORY := youdowell/gcloud-dind
+DOCKER_REPOSITORY := ubiqsocial/dind-gcloud
 PACKAGE_VERSION := $(shell node -pe "require('./package.json').version")
 VERSION ?= $(PACKAGE_VERSION)
 
