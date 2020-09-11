@@ -10,7 +10,8 @@ RUN apk --update --no-cache add \
         ca-certificates \
         curl \
         openssl \
-        python3 && \
+        python3 \
+        rsync && \
     update-ca-certificates && \
     wget -O - -q "${GCLOUD_SDK_URL}" | tar zxf - -C /opt && \
     ln -s /lib /lib64 && \

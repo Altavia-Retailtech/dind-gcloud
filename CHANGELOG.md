@@ -1,5 +1,9 @@
 ## 1.0.4 (2020-09-11)
 
+- add rsync
+
+## 1.0.4 (2020-09-11)
+
 - add gcloud auth configure-docker
 
 ## 1.0.3 (2020-09-11)
