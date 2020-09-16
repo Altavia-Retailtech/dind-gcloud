@@ -1,6 +1,6 @@
 FROM docker:latest
 
-ENV GCLOUD_SDK_VERSION="309"
+ENV GCLOUD_SDK_VERSION="310"
 
 ENV GCLOUD_SDK_URL="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-${GCLOUD_SDK_VERSION}.0.0-linux-x86_64.tar.gz" \
     PATH="/opt/google-cloud-sdk/bin:${PATH}"

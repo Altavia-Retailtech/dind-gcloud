@@ -1,3 +1,7 @@
+## 1.0.4 (2020-09-16)
+
+- bump Google SDK version to 310
+
 ## 1.0.4 (2020-09-11)
 
 - add rsync
