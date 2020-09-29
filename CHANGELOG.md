@@ -1,3 +1,7 @@
+## 1.0.4 (2020-09-29)
+
+- bump Google SDK version to 311
+
 ## 1.0.4 (2020-09-16)
 
 - bump Google SDK version to 310
